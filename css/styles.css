@@ -5,3 +5,11 @@
 #yourspot {
   display: none;
 }
+
+.btn {
+  margin-top: 20px;
+}
+
+html body {
+    background-color: green;
+}
