@@ -1,9 +1,18 @@
 var yourSpot = function(beer, outfit, food, weather, travel) {
-  if (beer === "lager" && outfit === "jeans and sweater") {
+  if (beer === "pilsner" && outfit === "jeans and sweater") {
     return "Canon beach";
   }
   else if (beer === "ipa" && outfit === "shorts and flip flops") {
     return "Kauai";
+  }
+  else if (weather === "sun" && travel === "boat") {
+    return "Vietnam";
+  }
+  else if (beer === "lager" && food === "pizza") {
+    return "Portland, OR"
+  }
+  else if (beer === "ipa") {
+    return "Bend, OR"
   }
 
 };
