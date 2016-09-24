@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Pikr</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Wanna go somewhere?</h1>
+
+      <p>Answer the questions below to find your <strong>perfect</strong> destination!</p>
+
+      <form id="vacation">
+
+        <h1>Beer</h1>
+
+        <select class="form-control" id="beer">
+          <option value="lager">Lager</option>
+          <option value="ipa">IPA</option>
+          <option value="pilsner">Pilsner</option>
+        </select>
+
+        <h2>Your ideal outfit</h2>
+
+        <select class="form-control" id="outfit">
+          <option value="jeans and sweater">Jeans and Sweater</option>
+          <option value="shorts and flip flops">short and flip flops</option>
+          <option value="jacket and boots">jacket and boots</option>
+        </select>
+
+
+
+        <button type="submit" class="btn">Find my spot!</button>
+
+      </form>
+
+      <div id="yourbeer">
+        <p>Based on our calculations, we think that <span id="perfect"> </span> will be the perfect destination for you!</p>
+      </div>
+    </div>
+
+  </body>
+</html>
